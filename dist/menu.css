@@ -1,0 +1,28 @@
+body{
+  background: black;
+  color: white;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.blob{
+  position: absolute;
+  background: black;
+  z-index: 100;
+  opacity: 0.5;
+  transition: opacity 1s;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.blob:hover{
+  opacity: 1;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 5em;
+  font-family: sans-serif;
+}
